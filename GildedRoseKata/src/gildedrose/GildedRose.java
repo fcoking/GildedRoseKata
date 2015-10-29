@@ -13,8 +13,20 @@ public class GildedRose {
 	}
 	
 	public void updateQuality(List<Item> items) {
-		for (Item item : items) {						
-///////////////////////////////////
+		for (Item item : items) {
+			/*
+			 if (item.getName().equals("Aged Brie")){
+			 	AgedBrie.Actualizar(item);
+			 } else if (item.getName().equals("Backstage passes to a TAFKAL80ETC concert")){
+				 Backstage.Actualizar(item);
+			 } else if (item.getName().equals("Sulfuras, Hand of Ragnaros")){
+				 Sulfuras.Actualizar(item);
+			 } else if (item.getName().equals("Conjured Mana Cake")){
+				 Conjured.Actualizar(item);
+			 } else {
+				 Normal.Actualizar(item);
+			 }
+			*/ 
 			if (!item.getName().equals("Aged Brie") && !item.getName().equals("Backstage passes to a TAFKAL80ETC concert") && !item.getName().equals("Sulfuras, Hand of Ragnaros")) {
 				if (item.getQuality() > 0) {					
 					decQuality(item);					
@@ -56,7 +68,6 @@ public class GildedRose {
 					}
 				}
 			}						
-//////////////////////////////////////////
 		}		
 	}
 }

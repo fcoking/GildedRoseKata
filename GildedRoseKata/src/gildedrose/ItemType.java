@@ -1,9 +1,8 @@
 package gildedrose;
 
-public class Sulfuras {
+public interface ItemType {
 
 	public static void Actualizar (Item item){
 		
-	}
-	
+	}		
 }

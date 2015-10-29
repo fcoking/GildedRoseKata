@@ -1,6 +1,6 @@
 package gildedrose;
 
-public class Conjured {
+public class Normal {
 
 	public static void Actualizar (Item item){
 		
